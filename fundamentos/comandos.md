@@ -14,6 +14,7 @@ cd ..                       # Volta uma pasta
 
 ## 🔗 Clonar repositório do GitHub
 
+0. Certifique-se de que você está no diretório onde quer que o repositório seja armazenado
 1. Crie o repositório no GitHub e copie o link do navegador  
 2. No terminal, clone o repositório com:
 
@@ -21,24 +22,37 @@ cd ..                       # Volta uma pasta
 git clone https://github.com/deborangueira/[nomeRepositorio].git
 ```
 
-## 🌿 Criar ou mudar de branch
+## 🌿 Criar, excluir ou mudar de branch
+
+```powershell
+
+git switch nomeBranch          # Troca para branch existente
+git switch -c novaBranch       # Cria e já troca para nova branch
+git push -u origin             # sobe a branch nova para o GitHub
+
+git push origin --delete       # exclui a branch no GitHub
+git branch -D nomeBranch       # exclui a branch local
+```
+## 🌳 Ver branches
 
 ```powershell
 git branch                     # Mostra branches locais (o * indica a atual)
 git branch -r                  # Mostra branches remotas
-
-git switch nomeBranch          # Troca para branch existente
-git switch -c novaBranch       # Cria e já troca para nova branch
+git branch -a                  # Mostra todas as branches
 ```
-
 
 ## 🚀 Dar push (enviar para o GitHub)
 
 ```powershell
-git pull origin main           # Traz atualizações antes de começar
+git pull origin nomeBranch           # Traz atualizações antes de começar
 git add .                      # Adiciona todas as mudanças
 git status                     # Verifica o que será enviado
 git commit -m "mensagem"       # Cria o commit com mensagem
 git push origin nomeBranch     # Envia para o GitHub
 ```
 
+## 🚀 Restaurar arquivos
+
+```powershell
+git restore .        # Desfaz todas as mudanças não comitadas
+```
