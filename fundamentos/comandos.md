@@ -51,6 +51,10 @@ git commit -m "mensagem"       # Cria o commit com mensagem
 git push origin nomeBranch     # Envia para o GitHub
 ```
 
+## 🫱🏼‍🫲🏼 Dar merge
+
+
+
 ## 🚀 Restaurar arquivos
 
 ```powershell
