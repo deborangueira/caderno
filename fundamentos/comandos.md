@@ -55,7 +55,7 @@ git push origin nomeBranch     # Envia para o GitHub
 
 
 
-## 🚀 Restaurar arquivos
+## 🫂 Restaurar arquivos
 
 ```powershell
 git restore .        # Desfaz todas as mudanças não comitadas
