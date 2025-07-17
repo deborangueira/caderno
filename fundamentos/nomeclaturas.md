@@ -10,7 +10,7 @@
 - sem caracteres especiais
 - sem espaço
 
-## Funções e variáveis: 
+## ⚙️ Funções e variáveis: 
 
 - **camelcase** (a primeira palavra em minúscula e as seguintes iniciando em maiúscula)
 - **funções**: iniciar com **verbo**, indicando ação (calcularTotal, buscarUsuario)
