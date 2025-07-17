@@ -87,12 +87,17 @@ git push origin branchDestino     # atualiza no GitHub
 - O `PS` indica que o terminal em uso é o **PowerShell** (padrão no Windows).
 - O `C:` mostra que você está no **disco local C** (unidade do computador onde ficam instalados o sistema e os arquivos do usuário)  
 
-> Curiosidade: Discos locais são partições físicas ou lógicas do computador que armazenam arquivos, programas e o sistema operacional. Cada disco (ou partição) é identificado por uma letra.
+> Curiosidade: Discos locais são partições físicas ou lógicas do computador que armazenam arquivos, programas e o sistema operacional. Cada disco (ou partição) é identificado por uma letra.  
+
 
 **🔹 `\Users\Inteli\Documents\Inteli`**
 
-- Mostra o **caminho completo (diretório atual)**, e serve para indicar **onde estou** dentro da estrutura de arquivos do sistema.
+- Mostra o **caminho completo (diretório atual)**, e serve para indicar **onde estou** dentro da estrutura de arquivos do sistema.  
 
----
 
-> _Atualizado em: 16/07/2025_
+
+# Referências
+
+**CHACON, Scott; STRAUB, Ben**. Pro Git. 2. ed. Berkeley: Apress, 2014. Acesso em: 17 jul. 2025.
+
+> _Atualizado em: 17/07/2025_
