@@ -1,2 +1,3 @@
 # caderno
-Anotações feitas durante meu curso no Inteli.
+
+Este é meu cantinho de anotações sobre programação, onde guardo tudo que acredito ser importante para consultar no futuro. 💻🌱
