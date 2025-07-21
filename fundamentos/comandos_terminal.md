@@ -9,14 +9,15 @@
 ```powershell
 cd nomePasta            # Entra na pasta
 cd ..                   # Volta uma pasta
+ls                      # Ver a estrutura de pastas daquele diretório
 ```
 
 ## 🔗 Clonar repositório do GitHub
 
-1. Defina a pasta (diretório) do seu computador que irá receber o repositório
-2. Crie o repositório no GitHub e copie o link de clonar
-3. Certifeque-se de que a rota da linha de comando do terminal está no diretório certo  
-4. No terminal, clone o repositório com:
+1. Defina a pasta do seu computador (diretório) que irá receber o repositório
+2. Crie o repositório no GitHub e copie o link de clonagem
+3. No terminal, certifique-se de que a linha de comando está no diretório certo  
+4. Por fim, clone o repositório com:
 
 ```powershell
 git clone https://github.com/deborangueira/[nomeRepositorio].git
