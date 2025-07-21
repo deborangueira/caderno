@@ -107,3 +107,9 @@ git push origin branchDestino     # atualiza no GitHub
 **🔹 `\Users\Inteli\Documents\Inteli`**
 
 - Mostra o **caminho completo (diretório atual)**, e serve para indicar **onde estou** dentro da estrutura de arquivos do sistema.  
+
+# Referências
+
+- **CHACON, Scott; STRAUB, Ben**. Pro Git. 2. ed. Berkeley: Apress, 2014. Acesso em: 17 jul. 2025.
+
+- **LEONID, Fernando**. Como clonar um repositório do GitHub – 05. YouTube, 21 jul. 2025. Disponível em: https://www.youtube.com/watch?v=5ctmK6fV1NQ&t=137s. Acesso em: 21 jul. 2025.
