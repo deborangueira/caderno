@@ -87,8 +87,25 @@ git push origin branchDestino     # atualiza no GitHub
   
 # Observações
 
-- O uso do **"."** em alguns comandos indica que aquela ação será aplicada para **todo** o repositório. Caso você queira que ele ocorra apenas em um arquivo específico, troque-o pelo nome do arquivo.
-  
+- O uso do **"."** indica que aquela ação será aplicada **em todos os arquivos e pastas a partir de onde estou executando o comando**, por isso sempre confira o relative path antes de rodar o comando. 
+
+    1. aqui o `git restore` irá ser executado apenas para a pasta2 pois o relative path aponta para ele.
+
+        <img src = './assets/ponto_em_git.png' style="width: 50%;">
+
+    2. Já aqui, ele irá ser executado para todos os arquivos e pastas dentro de testes
+
+        <img src = './assets/ponto2_em_git.png' style="width: 50%;">
+
+- Caso você queira que o comando ocorra apenas **em um arquivo**, o relative path deve está acessando a pasta em que aquele arquivo está e então você roda o comando trocando o "." pelo nome do arquivo: `git restore nome_arquivo`
+
+    <img src = './assets/ponto3_em_git.png' style="width: 50%;">
+
+
+- Caso você queira que o comando ocorra apenas **em uma pasta**, o relative path deve está acessando a pasta em que aquela pasta está e então você roda o comando trocando o "." pelo nome da pasta: `git restore nome_pasta/`
+
+    <img src = './assets/ponto4_em_git.png' style="width: 50%;">
+
 # Infos extras
 
 ### Powershell
