@@ -13,9 +13,10 @@ cd ..                   # Volta uma pasta
 
 ## 🔗 Clonar repositório do GitHub
 
-0. Certifique-se de que, no Vscode, você está no diretório onde quer que o repositório seja armazenado
-1. Crie o repositório no GitHub e copie o link do navegador  
-2. No terminal, clone o repositório com:
+1. Defina a pasta (diretório) do seu computador que irá receber o repositório
+2. Crie o repositório no GitHub e copie o link de clonar
+3. Certifeque-se de que a rota da linha de comando do terminal está no diretório certo  
+4. No terminal, clone o repositório com:
 
 ```powershell
 git clone https://github.com/deborangueira/[nomeRepositorio].git
