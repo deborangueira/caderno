@@ -39,11 +39,11 @@ git commit -m "comentário descritivo"      # O commit em si
 git push origin nomeBranch                 # Atualiza no GitHub
 ```
 
-Comandos úteis antes de realizar o commit para conferir a branch e as mudanças feitas:
+Comandos úteis **ANTES** de realizar o commit:
 ```powershell
-git branch                                 # Se certifique que está na branch certa e mude se for necessário.
-git pull origin nomeBranch                 # Atualiza a branch
-git status                                 # Verifica as mudanças
+git branch                                 # certificar-se de que está na branch certa
+git pull origin nomeBranch                 # faz fetch (baixa as atualizações do remoto) + merge (aplica as atualizações)
+git status                                 # Verifica as mudanças a serem commitadas
 ```
 
 
