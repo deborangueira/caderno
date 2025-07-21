@@ -1,8 +1,8 @@
-# Git, GitHub e comandos via Terminal (PowerShell + VS Code)
+# Comandos via Terminal (PowerShell + VS Code)
 
 > Nesse documento reuni os comandos que mais utilizo para o fluxo de trabalho com Git utilizando terminal do VS Code. Ele foi pensado para ser um documento de consulta, a fim de que não seja mais necessário utilizar o GitHub Desktop.  
 
-> _Atualizado em: 17/07/2025_
+> _Atualizado em: 21/07/2025_
 
 ## 📁 Navegar entre pastas
 
