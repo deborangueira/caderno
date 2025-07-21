@@ -17,11 +17,13 @@ ls                      # Ver a estrutura de pastas daquele diretório
 1. Defina a pasta do seu computador (diretório) que irá receber o repositório
 2. Crie o repositório no GitHub e copie o link de clonagem
 3. No terminal, certifique-se de que a linha de comando está no diretório certo  
-4. Por fim, clone o repositório com:
+4. Clone o repositório com:
 
 ```powershell
 git clone https://github.com/deborangueira/[nomeRepositorio].git
 ```
+
+5. Abra o repositório escolhendo o diretório no explorer do Vscode
 
 ## 👾 Iniciar o Git
 
