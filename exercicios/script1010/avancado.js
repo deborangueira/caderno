@@ -1,6 +1,6 @@
 var input =  require('fs').readFileSync('exercicios/stdin','utf8');
 
-var lines = input.trim().split(/\r?\n/); // transformo em um array onde cada string contem os dados de um produto e limpo essa string (remove strings vazias e com \r)
+var lines = input.split('\n'); // no beecrowd essa linha deve ser trocada para: var lines = input.trim().split(/\r?\n/); 
 
 var product = {} // objeto para armazenar dados dos produtos identificados por com chaves dinâmicas
 var total = 0
