@@ -70,7 +70,12 @@ git switch nomeBranch          # Troca branch
 git switch -c novaBranch       # Cria e já troca para nova branch
 git push -u origin novaBranch  # sobe a branch nova para o GitHub
 ```
-- O último comando com "push -u" cria uma **ligação entre a branch local** "novaBranch" e a **remota** "origin/novaBranch". Assim quando eu estiver nela, posso só usar `git pull` ou `git push`, sem precisar escrever o nome do remoto e da novaBranch.
+- O "-u" do último comando significa "upstream" e ele cria uma **ligação entre a branch local** "novaBranch" e a **remota** "origin/novaBranch". Assim quando eu estiver nela, posso só usar `git pull` ou `git push`, sem precisar escrever o nome do remoto e da novaBranch.
+
+```powershell
+git branch -vv              # saber se a branch local está vinculada a uma branch remota e a qual
+```
+- Exemplo de saída: nome da branch - ? - qual branch remota ela está rastreando - comentário do último commit feito
 
 ```powershell
 git push origin --delete nomeBranch      # exclui a branch no GitHub
