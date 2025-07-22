@@ -45,14 +45,6 @@ git branch                                 # certificar-se de que está na branc
 git fetch                                  # conferir se tem mudanças no remoto
 git status                                 # Verifica as mudanças a serem commitadas
 ```
-## 📲 Fetch e pull
-
-```powershell
-git fetch                                 # baixa as atualizações do remoto
-git pull                                  # aplica as atualizações no repositório
-```
-
-Se você quiser ser mais específico, utilize esse comando: `git pull origin nomeBranch`. Aqui estamos dizendo exatamente de onde puxar as mudanças: do repositório remoto chamado origin e da branch chamada "nomeBranch".
 
 ## 🕰️ Histórico de commits
 
@@ -67,17 +59,33 @@ git log
 1. git restore .     # Desfaz mudanças não comitadas (não reversível ⚠️)
 ```
 
+## 📲 Fetch e pull
+
+```powershell
+git fetch                                 # baixa as atualizações do remoto
+git pull                                  # aplica as atualizações no repositório
+```
+
+Se você quiser ser mais específico, utilize esse comando: `git pull origin nomeBranch`. Aqui estamos dizendo exatamente de onde puxar as mudanças: do repositório remoto chamado origin e da branch chamada "nomeBranch".
+
 ## 🌿 Branch (Navegar, criar, excluir e visualizar)
 
 ```powershell
 git switch nomeBranch          # Troca branch 
+```
 
+```powershell
 git switch -c novaBranch       # Cria e já troca para nova branch
-git push -u origin             # sobe a branch nova para o GitHub
+git push -u origin novaBranch  # sobe a branch nova para o GitHub
+```
+Obs.: esse último comando cria uma **ligação entre a branch local** "novaBranch" e a **remota** "origin/novaBranch". Assim quando eu estiver nela, posso usar `git pull` ou `git push` sem escrever o nome do remoto e da novaBranch.
 
+```powershell
 git push origin --delete nomeBranch      # exclui a branch no GitHub
 git branch -D nomeBranch                 # exclui a branch no seu computador
+```
 
+```powershell
 git branch                     # Mostra branches locais (o * indica a atual)
 git branch -r                  # Mostra branches remotas
 git branch -a                  # Mostra todas as branches
