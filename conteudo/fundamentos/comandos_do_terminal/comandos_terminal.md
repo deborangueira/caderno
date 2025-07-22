@@ -75,7 +75,7 @@ git push -u origin novaBranch  # sobe a branch nova para o GitHub
 ```powershell
 git branch -vv              # saber se a branch local está vinculada a uma branch remota e a qual
 ```
-- Exemplo de saída: nome da branch - ? - qual branch remota ela está rastreando - comentário do último commit feito
+- Exemplo de saída: nome da branch - identificador SHA-1 do último commit  - qual branch remota ela está rastreando - comentário do último commit feito
 
     <img src =  './assets/git_branch_vv.png' style="width: 50%;">
 
