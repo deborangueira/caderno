@@ -77,6 +77,8 @@ git branch -vv              # saber se a branch local está vinculada a uma bran
 ```
 - Exemplo de saída: nome da branch - ? - qual branch remota ela está rastreando - comentário do último commit feito
 
+    <img src =  './assets/git_branch_vv.png' style="width: 50%;">
+
 ```powershell
 git push origin --delete nomeBranch      # exclui a branch no GitHub
 git branch -D nomeBranch                 # exclui a branch no seu computador
