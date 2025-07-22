@@ -42,10 +42,17 @@ git push origin nomeBranch                 # Atualiza no GitHub
 Comandos úteis **ANTES** de realizar o commit:
 ```powershell
 git branch                                 # certificar-se de que está na branch certa
-git pull origin nomeBranch                 # faz fetch (baixa as atualizações do remoto) + merge (aplica as atualizações)
+git fetch                                  # conferir se tem mudanças no remoto
 git status                                 # Verifica as mudanças a serem commitadas
 ```
+## 📲 Fetch e pull
 
+```powershell
+git fetch                                 # baixa as atualizações do remoto
+git pull                                  # aplica as atualizações no repositório
+```
+
+Se você quiser ser mais específico, utilize esse comando: `git pull origin nomeBranch`. Aqui estamos dizendo exatamente de onde puxar as mudanças: do repositório remoto chamado origin e da branch chamada "nomeBranch".
 
 ## 🕰️ Histórico de commits
 
