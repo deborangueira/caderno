@@ -1,9 +1,10 @@
 # caderno
 
-Este é meu espaço de anotações sobre programação, onde guardo tudo que acredito ser importante para consultar no futuro. 💻🌱
+Este é meu espaço de anotações, aqui guardo anotações sobre programação além da resolução de exercícios do beecrowd. 💻🌱
 
-### Sumário
+## Sumário
 
+## Conteúdo
 **Fundamentos**
 1. [Sistema de codificação de caracteres](https://github.com/deborangueira/caderno/blob/main/fundamentos/sistema_codificacao_caracteres/sistemas_codificacao_de_caracteres.md)
 2. [Nomeclaturas](https://github.com/deborangueira/caderno/blob/main/fundamentos/nomeclaturas.md)
@@ -11,3 +12,7 @@ Este é meu espaço de anotações sobre programação, onde guardo tudo que acr
 4. [Atalhos](https://github.com/deborangueira/caderno/blob/main/fundamentos/atalhos.md)
 5. [Git & Github](https://github.com/deborangueira/caderno/blob/main/fundamentos/git_github.md)
 6. [Require e leitura de arquivos no Node.js](https://github.com/deborangueira/caderno/blob/main/fundamentos/require_e_leitura_de_arquivos.md)
+
+## Exercícios
+
+[script 1010]()
