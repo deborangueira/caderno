@@ -94,7 +94,7 @@ git push origin branchDestino     # atualiza no GitHub
   
 # Observações
 
-- O uso do **`.`** indica que aquela ação será aplicada **em todos os arquivos e pastas a partir de onde estou executando o comando**, por isso sempre confira o relative path antes de rodar o comando (que pode ser um `commit`, um `restore`, etc). 
+- O uso do **`.`** indica que aquela ação será aplicada **em todos os arquivos e pastas a partir de onde estou executando o comando** (que pode ser um `commit`, um `restore`, etc), por isso sempre confira o relative path antes. 
 
     1. aqui o `git restore` irá ser executado apenas para a pasta2 pois o relative path aponta para ele.
 
