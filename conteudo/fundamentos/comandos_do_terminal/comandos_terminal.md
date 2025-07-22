@@ -25,12 +25,6 @@ git clone https://github.com/deborangueira/[nomeRepositorio].git
 
 5. Abra o repositório escolhendo o diretório no explorer do Vscode
 
-## 👾 Iniciar o Git
-
-```powershell
-Git init
-```
-
 ## 🚀 Commit, push e pull 
 
 ```powershell
@@ -42,8 +36,7 @@ git push origin nomeBranch                 # Atualiza no GitHub
 Comandos úteis **ANTES** de realizar o commit:
 ```powershell
 git branch                                 # certificar-se de que está na branch certa
-git fetch                                  # conferir se tem mudanças no remoto
-git status                                 # Verifica as mudanças a serem commitadas
+git status                                 # Verifica as mudanças locais a serem commitadas
 ```
 
 ## 🕰️ Histórico de commits
