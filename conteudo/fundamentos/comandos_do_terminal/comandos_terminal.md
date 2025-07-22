@@ -25,7 +25,7 @@ git clone https://github.com/deborangueira/[nomeRepositorio].git
 
 5. Abra o repositório escolhendo o diretório no explorer do Vscode
 
-## 🚀 Commit, push e pull 
+## 🚀 Commit e push 
 
 ```powershell
 git add .                                  # Guarda todas as mudanças
@@ -39,8 +39,7 @@ git branch                                 # certificar-se de que está na branc
 git status                                 # Verifica as mudanças locais a serem commitadas
 ```
 
-## 🕰️ Histórico de commits
-
+Acessar o **Histórico** de commits
 ```powershell
 git log
 ```
