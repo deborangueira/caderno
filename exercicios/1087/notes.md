@@ -1,5 +1,6 @@
-### Understanding the problem | [**link**](https://resources.beecrowd.com/repository/UOJ_1087_en.html) | [Answer](https://github.com/deborangueira/caderno/blob/main/exercicios/1087/script1087.js)
+>[Question](https://resources.beecrowd.com/repository/UOJ_1087_en.html) | [My answer](https://github.com/deborangueira/caderno/blob/main/exercicios/1087/script1087.js)
 
+### Understanding the problem 
 
 - Each input's line is a test case with four integers that can range from 1 to 8: "X1 Y1 X2 Y2", where:
     - X1, Y1 is where the queen starts
@@ -7,6 +8,8 @@
 - the output must be the smallest number of moves needed for the queen to do so.
     - Note: The Queen can move in any direction: in the same **line**, in the same **column** or in any of the **diagonals**
 - The end of the input is indicated by a line containing four zeros
+
+
 
 ### Notes of experience
 
