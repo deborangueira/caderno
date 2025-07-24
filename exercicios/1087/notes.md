@@ -29,20 +29,38 @@ This made me realize that we can’t rely on our own assumptions when coding, bu
         - stops loop when the line with four zeros is reached -> `if(){break;}`
 - print output
 
-*process information*
-- compare coordinate X (testCase[0] with testCase[2]) and coordinate Y(testCase[1] with testCase[3]) to see how they differ from eachother.
+*process information - the function*
+- compare coordinate X (testCase[0] with testCase[2]) and coordinate Y(testCase[1] with testCase[3]) to see how they differ from each other.
     - if X and Y stay the same -> 0 moves are needed
     - if only X or Y change -> 1 move is needed
     - if both changes and we have a right triangle -> 1 move are needed.
     - for the rest of the cases -> at least 2 moves are needed 
-    
-    > possible outputs: 0,1,2
+- possible outputs: 0,1,2
+
+  **Code**
+
+    ```Javascript
+
+    function compare(a, b, c, d) {
+
+      if (a === c && b === d) { // se nenhuma coordenada mudar
+        return 0; // nenhum movimento é necessário
+      } else if (a !== c && b === d || a === c && b !== d ) { // se apenas uma coordenada mudar (respectivamente x, ou y)
+        return 1; // um movimento na horizontal ou vertical é necessário
+      } else if (Math.abs(c - a) === Math.abs(d - b)) { // condição para se formar um triângulo retângulo onde os catetos são iguais fazendo com que seja possível ir na diagonal -> utilizei módulo para a operação com o Math.abs()
+        return 1; // um movimento na diagonal é necessário
+      } else { // para todo o restante dos casos, serão necessários dois movimentos **no mínimo**
+        return 2;
+      }
+    }
+    ```
 
     <div align = 'center'>
     <img src = '../assets/notes1087.jpeg' style="width: 50%;">
 
-    <sup>Notes I made when trying to figure out the logic behind the "compare" function, especially how to handle the cases when the queen do a diagonal move.</sup>
+    <sup>Notes I made when I was in the traffic and had the idea of trying to figure out the logic behind the "compare" function, especially how to handle the cases when the queen do a diagonal move.</sup>
     </div>
+
 
 ### Referências
 
