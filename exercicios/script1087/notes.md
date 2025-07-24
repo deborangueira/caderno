@@ -16,6 +16,10 @@ I did it because I understood that the first method I used only checks the numbe
 
 This made me realize that we can’t rely on our own assumptions when coding, but instead **we should define precise criterias in everything possible**. By doing so, I could create a code that handled unexpected input variations while avoiding the subtle error caused by guessing the input length.
 
+<img src = '../assets/notes1087.jpeg' style="width: 30%;">
+
+
+
 ### roadmap
 
 *to get the input*
