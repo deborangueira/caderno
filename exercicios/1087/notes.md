@@ -1,4 +1,4 @@
-### Understanding the problem | [**link**](https://resources.beecrowd.com/repository/UOJ_1087_en.html)
+### Understanding the problem | [**link**](https://resources.beecrowd.com/repository/UOJ_1087_en.html) | [Answer](https://github.com/deborangueira/caderno/blob/main/exercicios/1087/script1087.js)
 
 
 - Each input's line is a test case with four integers that can range from 1 to 8: "X1 Y1 X2 Y2", where:
