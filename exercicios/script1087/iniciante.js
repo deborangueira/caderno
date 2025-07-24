@@ -18,7 +18,7 @@ for (i = 0; i < lines.length; i++) {
 
   let testCase = lines[i].split(" ").map(Number);
 
-  if (testCase.every(n => n === 0)) break; // condição de parada: o conteúdo da string ser "0 0 0 0"
+  if (testCase.every(n => n === 0)) break; // condição de parada: o CONTEÚDO da string ser "0 0 0 0"
 
   let X1 = testCase[0];
   let Y1 = testCase[1];
