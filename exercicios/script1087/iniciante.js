@@ -1,32 +1,32 @@
 var input = require("fs").readFileSync("exercicios/stdin", "utf8");
 var lines = input.split(/\r?\n/);
 
-var coordinate = {};
-
-for (i = 0; i < lines.length; i++) {
-  let parts = lines[i].split(" ");
-  let X1 = parts[0];
-  let Y1 = parts[1];
-  let X2 = parts[2];
-  let Y2 = parts[3];
-  coordinate[i] = { X1: X1, Y1: Y1, X2: X2, Y2: Y2 };
-}
-
 function compare(a, b, c, d) {
-  if (a === c && b === d) {
-    return 0;
-  } else if (a != c || b != d) {
-    return 1;
-  } else {
+
+  if (a === c && b === d) { // se nenhuma coordenada mudar
+    return 0; // nenhum movimento é necessário
+  } else if (a !== c && b === d || a === c && b !== d ) { // se apenas uma coordenada mudar (respectivamente x, ou y)
+    return 1; // um movimento na horizontal ou vertical é necessário
+  } else if (Math.abs(c - a) === Math.abs(d - b)) { // condição para se formar um triângulo retângulo onde os catetos são iguais fazendo com que seja possível ir na diagonal -> utilizei módulo para a operação com o Math.abs()
+    return 1; // um movimento na diagonal é necessário
+  } else { // para todo o restante dos casos, serão necessários dois movimentos **no mínimo**
     return 2;
   }
 }
 
-for (let i in coordinate) {
-  var x1 = coordinate[i].X1;
-  var y1 = coordinate[i].Y1;
-  var x2 = coordinate[i].X2;
-  var y2 = coordinate[i].Y2;
-  var totalMoves = compare(x1, y1, x2, y2);
+for (i = 0; i < lines.length; i++) {
+  let parts = lines[i].split(" ");
+  parseInt(parts);
+
+  let X1 = parts[0];
+  let Y1 = parts[1];
+  let X2 = parts[2];
+  let Y2 = parts[3];
+
+  let totalMoves = compare(X1, Y1, X2, Y2);
   console.log(totalMoves);
 }
+
+
+
+

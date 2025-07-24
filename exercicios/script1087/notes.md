@@ -7,12 +7,15 @@
 - X2, Y2 is where the queen wants to reach
 - the output must be the smallest number of moves needed for the queen to do so.
 - Note: The Queen can move in any direction: in the same **line**, in the same **column** or in any of the **diagonals**
+- The end of input is indicated by a line containing four zeros, separated by spaces.
 
 ### roadmap
 
 *get the input*
 - Read string
 - separate by line  
+- separate the strings and identifies them by coordinates
+- stops reading when reach the line with four zeros
 
 *process information*
 - compare coordinate X ([0] with [2]) and coordinate Y([1] with [3]) to see how they differ from eachother.
@@ -22,10 +25,3 @@
 
 > possible outputs: 0,1,2
 
-**Proposta do código avançado**
-
-N/A
-
-**explicações**
-
-- 
