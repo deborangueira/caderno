@@ -12,5 +12,7 @@ Nesse documento reuni os atalhos que mais utilizo enquanto programo, utilizando 
 | `Ctrl + W`               | Fechar a aba/janela atual                                            |
 | `Ctrl + Shift + V`       | Abrir visualizador de Markdown                                       |
 | `Ctrl + Shift + E`       | Abrir explorer do Vscode                                       |
+| `Ctrl + tab`       | navegar entre pastas do Vscode                                       |
+| `alt + tab`       | navegar entre janelas do computador                                       |
 
 
