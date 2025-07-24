@@ -7,7 +7,7 @@
 - X2, Y2 is where the queen wants to reach
 - the output must be the smallest number of moves needed for the queen to do so.
 - Note: The Queen can move in any direction: in the same **line**, in the same **column** or in any of the **diagonals**
-- The end of input is indicated by a line containing four zeros, separated by spaces.
+- The end of input is indicated by a line containing four zeros -> `break`
 
 ### roadmap
 

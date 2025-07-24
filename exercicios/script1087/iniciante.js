@@ -1,5 +1,5 @@
 var input = require("fs").readFileSync("exercicios/stdin", "utf8");
-var lines = input.split(/\r?\n/);
+var lines = input.split('\n');
 
 function compare(a, b, c, d) {
 
@@ -15,8 +15,10 @@ function compare(a, b, c, d) {
 }
 
 for (i = 0; i < lines.length; i++) {
-  let parts = lines[i].split(" ");
-  parseInt(parts);
+
+  let parts = lines[i].split(" ").map(Number);
+
+  if (parts.every(n => n === 0)) break;
 
   let X1 = parts[0];
   let Y1 = parts[1];
@@ -24,7 +26,9 @@ for (i = 0; i < lines.length; i++) {
   let Y2 = parts[3];
 
   let totalMoves = compare(X1, Y1, X2, Y2);
+
   console.log(totalMoves);
+
 }
 
 
