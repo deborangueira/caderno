@@ -10,7 +10,7 @@
 
 ### Notes of experience
 
-The stopping condition was the biggest challenge for me because I initially assumed the line "0 0 0 0" would always be last. So I wrote `for (i = 0; i < (lines.length - 1); i++)`, but Beecrowd didn’t accepted it and, later on, this led me to use a `break` statement instead.
+The stopping condition was the biggest challenge for me because I initially assumed that the line "0 0 0 0" would always be last one. So I wrote `for (i = 0; i < (lines.length - 1); i++)`, but Beecrowd didn’t accepted it and, later on, this led me to use a `break` statement instead.
 
 I did it because I understood that the first method I used only checks the number of lines, and that's a problem. Simply put, if it happens to appear extra lines with any kind of content (such as white spaces, numbers or text), they would be considered and that would lead to wrong outputs. Using a dynamic stop with `break` instead, lets the program check the actual content and stop **exactly** when the zero line appears. 
 
@@ -41,7 +41,7 @@ This made me realize that we can’t rely on our own assumptions when coding, bu
     <div align = 'center'>
     <img src = '../assets/notes1087.jpeg' style="width: 50%;">
 
-    <sup>Anotações que me ajudaram construir a lógica por trás da função "compare", especialmente a identificar como lidar com o movimento na diagonal da queen.</sup>
+    <sup>Notes I made when trying to figure out the logic behind the "compare" function, especially how to handle the cases when the queen do a diagonal move.</sup>
     </div>
 
 ### Referências
