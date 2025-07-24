@@ -38,9 +38,11 @@ This made me realize that we can’t rely on our own assumptions when coding, bu
     
     > possible outputs: 0,1,2
 
+    <div align = 'center'>
+    <img src = '../assets/notes1087.jpeg' style="width: 50%;">
 
-    <img src = '../assets/notes1087.jpeg' style="width: 30%;">
-
+    <sup>Anotações que me ajudaram construir a lógica por trás da função "compare", especialmente a identificar como lidar com o movimento na diagonal da queen.</sup>
+    </div>
 
 ### Referências
 
