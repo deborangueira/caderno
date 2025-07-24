@@ -16,14 +16,14 @@ function compare(a, b, c, d) {
 
 for (i = 0; i < lines.length; i++) {
 
-  let parts = lines[i].split(" ").map(Number);
+  let testCase = lines[i].split(" ").map(Number);
 
-  if (parts.every(n => n === 0)) break;
+  if (testCase.every(n => n === 0)) break; // condição de parada: o conteúdo da string ser "0 0 0 0"
 
-  let X1 = parts[0];
-  let Y1 = parts[1];
-  let X2 = parts[2];
-  let Y2 = parts[3];
+  let X1 = testCase[0];
+  let Y1 = testCase[1];
+  let X2 = testCase[2];
+  let Y2 = testCase[3];
 
   let totalMoves = compare(X1, Y1, X2, Y2);
 
