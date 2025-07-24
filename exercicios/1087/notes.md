@@ -61,7 +61,7 @@ This made me realize that we can’t rely on our own assumptions when coding, bu
     <div align = 'center'>
     <img src = '../assets/notes1087.jpeg' style="width: 50%;">
 
-    <sup>Notes I made when trying to figure out the logic behind the "compare" function, especially how to handle the cases when the queen do a diagonal move.</sup>
+    <sup>Notes I made when trying to figure out the logic behind the "compare" function, especially how to handle the cases when the queen do a diagonal move. Fun fact: I was in the traffic at that moment, trying hard to write as the car moved rsrs</sup>
     </div>
 
 
