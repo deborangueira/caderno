@@ -38,3 +38,6 @@ This made me realize that we can’t rely on our own assumptions when coding, bu
     
     > possible outputs: 0,1,2
 
+### Referências
+
+**REIS, Ricardo**. Break JavaScript. Medium, 18 mai. 2020. Disponível em: https://ricardo-reis.medium.com/break-9a71e3121803. Acesso em: 24 jul. 2025.
