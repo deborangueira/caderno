@@ -15,4 +15,5 @@ Este é meu espaço de anotações, aqui guardo conteúdos de programação que 
 
 ### Exercícios
 
-[script 1010](https://github.com/deborangueira/caderno/tree/main/exercicios/script1010)
+[1010](https://github.com/deborangueira/caderno/blob/main/exercicios/1010/notes.md)
+[1087](https://github.com/deborangueira/caderno/blob/main/exercicios/1087/notes.md)
