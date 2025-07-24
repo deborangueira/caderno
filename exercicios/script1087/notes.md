@@ -10,11 +10,11 @@
 
 ### Notes of experience
 
-The stopping condition was the biggest challenge for me because I initially assumed the line "0 0 0 0" would always be last. So I wrote `for (i = 0; i < lines.length - 1; i++)`, but Beecrowd didn’t accepted it and, later on, this led me to use a `break` statement instead.
+The stopping condition was the biggest challenge for me because I initially assumed the line "0 0 0 0" would always be last. So I wrote `for (i = 0; i < (lines.length - 1); i++)`, but Beecrowd didn’t accepted it and, later on, this led me to use a `break` statement instead.
 
 I did it because I understood that the first method I used only checks the number of lines, and that's a problem. Simply put, if it happens to appear extra lines with any kind of content (such as white spaces, numbers or text), they would be considered and that would lead to wrong outputs. Using a dynamic stop with `break` instead, lets the program check the actual content and stop **exactly** when the zero line appears. 
 
-This made me realize that we can’t rely on our own assumptions when coding, but instead **we should define precise criterias in everything possible**. By doing so, I could create a code that handled unexpected input variations correctly while avoiding the subtle error caused by guessing the input length.
+This made me realize that we can’t rely on our own assumptions when coding, but instead **we should define precise criterias in everything possible**. By doing so, I could create a code that handled unexpected input variations while avoiding the subtle error caused by guessing the input length.
 
 ### roadmap
 
