@@ -21,22 +21,20 @@ This made me realize that we can’t rely on our own assumptions when coding, bu
 
 ### roadmap
 
-*to get the input*
-- Read string
-    - separate it by `\n` creating a array  
-        - separate each given string by `" "` creating a new array with four strings
-        - turn them into numbers
-        - Identify them by the coordinate each one represents
-        - process logic
-    - Process function for each one of them -> `for(i =...){}`
-        - stops loop when the line with four zeros is reached -> `if(){break;}`
+- Read input (string)
+    - separate it by `\n` creating a string for each line of the input, where each one represents a testCase.
+        - separate each given string by `" "` creating a new array with four strings.
+          - turn them into numbers
+          - Store them in variables (with the name indicating the coordinate each one represents)
+    - Process function for each line thought a loop -> `for(i =...){}`
+        - stops the loop when the line with four zeros is reached -> `if(){break;}`
 - print output
 
-*process information - the function*
+*the function*
 - compare coordinate X (testCase[0] with testCase[2]) and coordinate Y(testCase[1] with testCase[3]) to see how they differ from each other.
     - if X and Y stay the same -> 0 moves are needed
     - if only X or Y change -> 1 move is needed
-    - if both changes and we have a right triangle -> 1 move are needed.
+    - if both changes and we have a right triangle -> 1 move is needed.
     - for the rest of the cases -> at least 2 moves are needed 
 - possible outputs: 0,1,2
 
@@ -68,3 +66,5 @@ This made me realize that we can’t rely on our own assumptions when coding, bu
 ### Referências
 
 **REIS, Ricardo**. Break JavaScript. Medium, 18 mai. 2020. Disponível em: https://ricardo-reis.medium.com/break-9a71e3121803. Acesso em: 24 jul. 2025.
+
+**ROCKETSEAT**. Desestruturação em arrays (parte 01). YouTube, publicado há cerca de sete meses (por volta de dezembro de 2024). Disponível em: https://www.youtube.com/watch?v=WEn6ur8UK1k. Acesso em: 28 jul. 2025.
