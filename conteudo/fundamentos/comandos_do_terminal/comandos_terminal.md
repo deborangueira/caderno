@@ -51,6 +51,13 @@ git log
 1. git restore .     # Desfaz mudanças não comitadas (não reversível ⚠️)
 ```
 
+## ⚙️ Conexão com repositório do GitHub
+
+```powershell
+git branch -v                              # saber qual repositório do github o seu arquivo local está apontando
+git remote set-url origin [cloning link]   # mudar essa relação
+```
+
 ## 📲 Fetch e pull
 
 ```powershell
@@ -60,10 +67,21 @@ git pull                                  # aplica as atualizações no reposit�
 
 Se você quiser ser mais específico, utilize esse comando: `git pull origin nomeBranch`. Aqui estamos dizendo exatamente de onde puxar as mudanças: do repositório remoto chamado origin e da branch chamada "nomeBranch".
 
-## 🌿 Branch (Navegar, criar, excluir e visualizar)
+## 🌿 Branch (Visualizar, navegar, excluir, criar e conferir a relação com o github)
+
+```powershell
+git branch                     # Mostra branches locais (o * indica a atual)
+git branch -r                  # Mostra branches remotas
+git branch -a                  # Mostra todas as branches
+```
 
 ```powershell
 git switch nomeBranch          # Troca branch 
+```
+
+```powershell
+git push origin --delete nomeBranch      # exclui a branch no GitHub
+git branch -D nomeBranch                 # exclui a branch no seu computador
 ```
 
 ```powershell
@@ -73,22 +91,13 @@ git push -u origin novaBranch  # sobe a branch nova para o GitHub
 - O "-u" do último comando significa "upstream" e ele cria uma **ligação entre a branch local** "novaBranch" e a **remota** "origin/novaBranch". Assim quando eu estiver nela, posso só usar `git pull` ou `git push`, sem precisar escrever o nome do remoto e da novaBranch.
 
 ```powershell
-git branch -vv              # saber se a branch local está vinculada a uma branch remota e a qual
+git branch -vv                 # saber a quais branches remotas as locais estão vinculadas
 ```
 - Exemplo de saída: nome da branch - identificador SHA-1 do último commit  - qual branch remota ela está rastreando - comentário do último commit feito
 
     <img src =  './assets/git_branch_vv.png' style="width: 50%;">
 
-```powershell
-git push origin --delete nomeBranch      # exclui a branch no GitHub
-git branch -D nomeBranch                 # exclui a branch no seu computador
-```
 
-```powershell
-git branch                     # Mostra branches locais (o * indica a atual)
-git branch -r                  # Mostra branches remotas
-git branch -a                  # Mostra todas as branches
-```
 
 ## 🫱🏼‍🫲🏼 Fazer merge
 

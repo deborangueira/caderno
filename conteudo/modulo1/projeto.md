@@ -1,14 +1,14 @@
 ❇️DESCRIÇÃO
 
-Construção de um sistema Web 
+- Construção de um **sistema Web**
 
-Projeto organizado seguindo o padrão MVC (Model-View-Controller)
-Benefício: facilita o desenvolvimento, pois cada parte do sistema tem sua função clara (projeto fica mais legível e escalável), e ajuda na manutenção do código
+- Projeto organizado seguindo o **padrão MVC** (Model-View-Controller)
+    Benefício: facilita o desenvolvimento, pois cada parte do sistema tem sua função clara (projeto fica mais legível e escalável), e ajuda na manutenção do código
 
-servidor configurado com Node.js e Express.js
-comandos:
-1. npm init: adiciona o arquivo package.json que guarda as dependências
-2. npm install express: cria a pasta node_modules e o arquivo package-lock.json
+- Servidor configurado com Node.js e Express.js
+    instalar as dependências:
+    1. npm init: adiciona o arquivo package.json que guarda as dependências
+    2. npm install express: cria a pasta node_modules e o arquivo package-lock.json
 
 Interface desenvolvida com EJS
 
