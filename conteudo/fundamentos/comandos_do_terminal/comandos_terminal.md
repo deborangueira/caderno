@@ -10,6 +10,7 @@
 cd nomePasta            # Entra na pasta
 cd ..                   # Volta uma pasta
 ls                      # Ver a estrutura de pastas daquele diretório
+explorer.exe .          # Abre o diretório no seu computador
 ```
 
 ## 🔗 Clonar repositório do GitHub
