@@ -21,7 +21,7 @@
     - Permite autenticação
     - Atualiza de forma síncrona conforme os dados do banco de dados são atualizados
     
-    > **PostgreSQL**, ou só postgre, é um **sistema gerenciador de banco de dados objeto-relacional**
+    > **PostgreSQL** é um tipo de **sistema gerenciador de banco de dados objeto-relacional**
 
     > **SQL - Structured Query language** (*linguagem de consulta estruturada*)
     - Linguagem de consulta de banco de dados universal (utilizada para fazer consulta e manipulação)
