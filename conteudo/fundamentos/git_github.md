@@ -2,7 +2,15 @@
 
 ### Git
 
+- Git has three main states that your files can reside in: 
 
+    1. **modified**: Working directory -> modifications you made
+    2. **staged**: Staging area -> it's the index file located in '.git' responsible for storing information about what will go into your next commit
+    3. **committed**: .git directory (repository) -> stores the metadata and object database for your project. *(it is what is copied when you clone a repository from another computer)*
+
+    <img src = './assets/gitStates.png' style="width: 50%;">
+
+- A SHA-1 hash (string of 40 hex digits) identifies each commit made. 
 
 
 # Referências
