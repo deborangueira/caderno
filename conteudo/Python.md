@@ -1,9 +1,13 @@
 ## Listas []
 
+- homogeneous aggregate: we can store different data types
+- Muttable: we can use edit methods to change the list and its values.
+
 ```Python
 courses = ['Design', 'Computação', 'Matemática', 'Liderança', 'Negócios']
 electives = ['Photography', 'IA']
 nums = [3,5,4,1,7]
+grade = [9, 8, 10, 9, 10]
 ```
 
 **Access methods**
@@ -17,6 +21,7 @@ print(courses[-1]) # output: Negócios
 print(couses[2:]) # ['Matemática', 'Liderança', 'Negócios'] // índice do lado da esquerda é inclusivo
 print(couses[:2]) # ['Design', 'Computação'] // índice do lado da direita é exclusivo
 ```
+
 **Edit methods**
 ```Python
 courses.append('Arte') # adiciona no fim
@@ -51,6 +56,16 @@ for index, course in enumarate (courses, start=1)
 
 ```
 
+**Dynamic outputs**
+
+- O uso do `f` permite executar código Python dentro de uma string, desde que esse código esteja dentro de {}
+
+```Python
+
+print(f'A nota de {courses[0]} foi {grade[0]}.' )
+
+```
+
 **Spliting values**
 
 ```Python
@@ -60,8 +75,8 @@ revert_courses_list = new_list_of_courses.split(' - ')
 
 ## Tuplas ()
 
-- Unlike lists, we can't modify tuples (they're imutable)
-- Still, we can loop through tuples and acess values.
+- They're immutable: Unlike lists, we can't change tulples (like using editing methods or doing new assignments to items)
+- Still, we can loop through it and acess values.
 
 ## Dicionários {}
 
