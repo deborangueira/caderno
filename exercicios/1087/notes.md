@@ -82,6 +82,7 @@ Here is the summary of how I got help from it:
     <sup>I first panicked, but this led me to investigate further, and I eventually found the issue in the loop’s stopping condition, so everything is okay now. I liked how this helped me to approach debugging more independently.</sup>
     </div>
 
+[link do chatGPT](https://chatgpt.com/share/689a5e08-8704-8000-810f-c7805e74b0a8)
 
 ### Referências ♻️
 
