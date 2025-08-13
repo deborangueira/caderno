@@ -5,13 +5,15 @@ accounts = [
 ];
 
 var wealth = 0;
+var list = [];
 
 for (i = 0; i < accounts.length; i++) {
   let client = accounts[i];
 
   for (i = 0; i < client.length; i++) {
     wealth += client[i];
+    list.push(wealth)
   }
-
-  console.log(client);
 }
+
+console.log(list)
