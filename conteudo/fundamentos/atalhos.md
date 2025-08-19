@@ -14,5 +14,7 @@ Nesse documento reuni os atalhos que mais utilizo enquanto programo, utilizando 
 | `Ctrl + Shift + E`       | Abrir explorer do Vscode                                       |
 | `Ctrl + tab`       | navegar entre pastas do Vscode                                       |
 | `alt + tab`       | navegar entre janelas do computador                                       |
+| `alt + shift + seta` 🌟       | duplica as linhas selecionadas em cima/baixo                                   |
+| `alt + seta` 🌟      | desce/sobe as linhas selecionadas para cima/baixo                                   |
 
 
