@@ -16,5 +16,6 @@ Nesse documento reuni os atalhos que mais utilizo enquanto programo, utilizando 
 | `alt + tab`       | navegar entre janelas do computador                                       |
 | `alt + shift + seta` 🌟       | duplica as linhas selecionadas em cima/baixo                                   |
 | `alt + seta` 🌟      | desce/sobe as linhas selecionadas para cima/baixo                                   |
+| `ctrl + D` 🌟      | selecionar a próxima ocorrência da palavra a partir de onde o cursor está.                                  |
 
 
