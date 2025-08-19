@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np  # use Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns
 
 def calculate(list): # function called calculate that will return a dictionary. The matrix is organized in a list with 9 numbers.
 
@@ -6,7 +6,6 @@ def calculate(list): # function called calculate that will return a dictionary. 
         raise ValueError("List must contain nine numbers.")
     
     ls = np.array(list) #The function should convert the list into a 3 x 3 Numpy array
-    print(ls)
 
     mean_rows = [ls[[0,1,2]].mean(), ls[[3,4,5]].mean(), ls[[6,7,8]].mean()] #linhas
     mean_columns = [ls[[0,3,6]].mean(), ls[[1,4,7]].mean(), ls[[2,5,8]].mean()] #colunas
@@ -26,7 +25,7 @@ def calculate(list): # function called calculate that will return a dictionary. 
     sum_rows = [ls[[0,1,2]].sum(), ls[[3,4,5]].sum(), ls[[6,7,8]].sum()] #linhas
     sum_columns = [ls[[0,3,6]].sum(), ls[[1,4,7]].sum(), ls[[2,5,8]].sum()] #colunas
 
-    return {
+    return { # and then return a dictionary
         'mean': [mean_columns, mean_rows, ls.mean()],
         'variance': [var_columns, var_rows, ls.var()],
         'standard deviation': [std_columns, std_rows, ls.std()],
