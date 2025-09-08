@@ -1,4 +1,88 @@
-## Listas []
+## Function
+
+Creating reusable code that everytime it is called the code to be run will come from the same source. Remeber that python uses significant indentation  to identify code blocks.
+
+```Python
+
+def greet(name) -> None: #the function receives a paremeter called name and doesn't return nothing (None)
+    print(f'Hello,{name}!')
+
+greet('Jimin')
+greet ('J-hope')
+
+def add(a,b) -> float: #the function receives two parameters and return a float
+    return a+b
+
+add(1,2)
+
+```
+
+## Class
+
+- Simplify the process of creating objects, or code that has to be duplicated a lot. 
+- "self" refers to the instance of the class
+
+```Python
+
+Class Car:
+
+    # a initializer is used to set up an instance for the class. It means that it will be created an object with a specific caracteristics for each atribute.
+    def __init__(self,colour: str, hoursepower: int) -> None:
+        self.colour = colour
+        self.hoursepower = hoursepower
+
+volvo: car = Car('red', 200) # Volvo is an instance/object of the class 
+print(volvo.colour)
+print(volvo.horsepower)
+
+```
+
+**Methods**
+
+They are functions inside a class
+
+```Python
+
+Class Car:
+
+    def __init__(self,brand: str, hoursepower: int) -> None:
+        self.brand = brand
+        self.hoursepower = hoursepower
+
+    def drive(self) -> None:
+        print(f'{self.brand} Mis driving')
+
+    def get_info(self) -> None: #we can add more parameters after the self, like: get_info(self, var: int)
+        print(f'{self.brand} with {self.horsepower} horsepower')
+
+volvo: car = Car('Volvo', 200)
+volvo.drive()
+volvo.get_info() # if we added parameters in the function, we could call this function like this: volvo.get_info(10)
+
+bmw: Car = Car('BMW', 240)
+
+```
+
+##  Data Types
+
+```Python
+
+number: int = 10
+decimal: float = 2.5
+text: str = 'Hello, world' # or "Hello, world"
+active: bool = False
+
+names: list = ['Jimin', 'J-hope'] # multable and we can perform many operations
+coordinates: tulple = (1.5, 2.5) # unmultable
+unique: set = {1, 4, 2, 9} # can not have duplicates (everythink is unique)
+data: dict = {'name': 'Jimin', 'style': 'contemporary'} # key-value
+
+
+```
+
+## Othe topics
+
+### Listas []
 
 - homogeneous aggregate: we can store different data types
 - Muttable: we can use edit methods to change the list and its values.
@@ -73,12 +157,12 @@ new_list_of_courses = ' - '.join(courses)
 revert_courses_list = new_list_of_courses.split(' - ')
 ```
 
-## Tuplas ()
+### Tuplas ()
 
 - They're immutable: Unlike lists, we can't change tulples (like using editing methods or doing new assignments to items)
 - Still, we can loop through it and acess values.
 
-## Dicionários {}
+### Dictionaries {}
 
 - Allow us to work with **Key-value pairs**
     - Key: unique identifier. It can be any unmutable data type
@@ -129,4 +213,5 @@ for Key, value in student.item()
 # References
 
 [Dictionary](https://www.youtube.com/watch?v=daefaLgNkw0)\
-[Lists and tulpes](https://www.youtube.com/watch?v=W8KRzm-HUcc)
+[Lists and tulpes](https://www.youtube.com/watch?v=W8KRzm-HUcc)\
+[Important Concepts -> the perfect video](https://www.youtube.com/watch?v=Gx5qb1uHss4&list=WL&index=2&t=189shttps://www.youtube.com/watch?v=Gx5qb1uHss4&list=WL&index=2&t=189s)
