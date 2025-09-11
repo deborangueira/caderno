@@ -6,7 +6,7 @@ Nesse documento reuni os atalhos que mais utilizo enquanto programo, utilizando 
 | `Shift + seta`           | Selecionar rapidamente várias linhas (cima/baixo) ou caracteres (esquerda/direita)                                 |
 | `Ctrl + A` → `Ctrl + K` → `Ctrl + F` | Organizar indentação de todo o código                           |
 | `Alt + Z`                | Remover barra de rolagem horizontal (quebra de linha automática)     |
-| `Ctrl + C`               | Nova linha de comando no terminal                                   |
+| `Ctrl + C`               | Nova linha de comando no terminal, cancela qualquer execução que esteja ocorrendo no terminal                                   |
 | `Ctrl + H`               | Substituir um termo por outro                                        |
 | `Ctrl + X`               | Apagar a linha atual (onde está o cursor)                            |
 | `Ctrl + W`               | Fechar a aba/janela atual                                            |
