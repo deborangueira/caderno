@@ -2,6 +2,7 @@
 
 - Part of the supervised learning: **regression** 
 - algorithm for categorical variable prediction.
+- 
 
 # References
 
