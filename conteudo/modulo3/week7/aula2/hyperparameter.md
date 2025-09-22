@@ -1,7 +1,6 @@
 # Notes
 
-- É o processo de definir variáveis que controlam aspectos do modelo antes de rodar o treinamento
-- se bem escolhidos, o modelo fica mais preciso, mais eficiente; se mal escolhidos, ele pode aprender mal, demorar demais pra treinar ou se “viciar” nos dados (overfitting) ou não aprender direito (underfitting).
+- Parâmtros que são importantes para o modelo mas não podem ser definidos por meio dos dados ou de treinamento
 
 ## Tuning
 - Processo iterativo de experimentar várias combinações de hiperparâmetros pra ver quais dão o melhor resultado.
