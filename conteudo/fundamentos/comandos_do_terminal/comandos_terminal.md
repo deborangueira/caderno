@@ -31,6 +31,7 @@ git clone https://github.com/deborangueira/[nomeRepositorio].git
 ```powershell
 git add .                                  # Guarda todas as mudanças
 git commit -m "comentário descritivo"      # O commit em si
+git commit --amend -m "descrição"          # renomear o commit (antes do push)
 git push origin nomeBranch                 # Atualiza no GitHub
 ```
 
