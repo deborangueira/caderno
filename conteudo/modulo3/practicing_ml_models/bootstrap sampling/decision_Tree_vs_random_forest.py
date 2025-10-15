@@ -4,12 +4,20 @@ import numpy as np
 
 # Criar um dataset pequeno
 X, y = make_classification(
-    n_samples=10, n_features=4, n_informative=2, n_redundant=0,
-    n_classes=2, flip_y=0.2, random_state=42
+    n_samples=10, 
+    n_features=4, 
+    n_informative=2, 
+    n_redundant=0,
+    n_classes=2, 
+    flip_y=0.2, 
+    random_state=42
 )
 
 # Treinar Random Forest com poucas árvores
-forest = RandomForestClassifier(n_estimators=5, random_state=42)
+forest = RandomForestClassifier(
+    n_estimators=5, 
+    random_state=42
+)
 forest.fit(X, y)
 
 # Previsões de cada árvore individual
