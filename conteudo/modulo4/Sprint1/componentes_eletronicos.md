@@ -1,4 +1,5 @@
 # Componentes
+
 ### LED
 
 - [Pode resistor no temrinal negativo?](https://www.youtube.com/watch?v=zxkB4cPuJC8)
@@ -12,7 +13,7 @@
 
 ## Circuitos
 
-[Circuito Resistor-Capacitor (RC)](https://www.youtube.com/watch?v=yb8Qf0C0Ozc) -> depois de estudar debouncing
+- [Circuito Resistor-Capacitor (RC)](https://www.youtube.com/watch?v=yb8Qf0C0Ozc) -> depois de estudar debouncing
 
 - [Circuito RC: Relé Temporizado](https://www.youtube.com/watch?v=wWs8FF4B_yM)
     - relé temporizado — um interruptor com um timer que aciona ou desliga um circuito em intervalos de tempo definidos.
