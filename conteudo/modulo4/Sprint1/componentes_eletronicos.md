@@ -6,6 +6,24 @@
 
 ### [capacitores](https://www.youtube.com/watch?v=C54Cp819Ebc)
 
+- Componente passivo
+- Armazena energia eletrica na forma de campo elétrico entre duas placas
+- Capacitores em atuadores: usado para controlar energia e suavizar sinais elétricos
+
+### Resistor
+
+- componente passivo
+- função: limitar ou controlar o fluxo de corrente elétrica (converte energia elétrica em calor - efeito joule)
+
+### Sensores
+
+- Detectam variações no ambiente e transformam essas variações em sinais elétricos
+- Resistor em sensores são usados para medir grandezas (ex.: variação de resistência = temperatura)
+
+### Atuadores
+
+- São dispositivos que recebem sinais elétricos e produzem uma ação física
+
 ### [arduino](https://www.youtube.com/watch?v=1ENiVwk8idM)
 
 - Com o Arduino, você pode escrever códigos para controlar diversos componentes eletrônicos, como sensores, LEDs e motores.
