@@ -242,6 +242,38 @@ for ingrediente in ingredientes:
     print(f"{ingrediente} is in the list")
 ```
 
+## if-elif-else
+
+We can use this statement in three different ways. Only `if`, `if - else` or `ìf - elif - else`!
+
+```Python
+
+idade = 18
+if idade < 12:
+    print("crianca")
+elif idade < 18:
+    print("adolescente")
+elif idade < 60:
+    print("adulto")
+else:
+    print("idoso")
+
+```
+
+### How to explain and communicate my code - Vocabulary
+
+No código a seguir temos um exemplo de uso do if no qual **verificamo**s se a variável idade é menor que 20. Em caso positivo, **imprimimos** uma mensagem na tela e em caso negativo o código seguirá normalmente, **desconsiderando** a linha 3.
+
+```Python
+idade = 18
+if idade < 20:
+    print("Você é jovem!")
+```
+
+Como podemos notar, essa estrutura é formada pela **palavra reservada** if, seguida por uma condição e por dois pontos (:). As linhas abaixo dela formam o **bloco de instruções** que serão executadas se a condição for atendida. Para isso, elas devem ser **identadas** corretamente. Nesse código, apenas a **instrução** da linha 3 é **executada**, e por isso ela está **tabulada** (tab -> identação). Se fosse necessária a execução de outras linhas no caso da idade ser menor que 20, elas também deveriam estar no mesmo **nível de identação** da linha 3.
+
+| A tabulação indica hierarquia de bloco de código.
+
 
 # References
 
