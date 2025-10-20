@@ -25,5 +25,6 @@
 ### [Protoboard](https://www.youtube.com/watch?v=DfU6llvIMcM)
 
 ### [Tinkercad](https://www.youtube.com/watch?v=YFq9nPDs0SY)
+- Permite simular circuitos com arduino
 
 ### [Simulador Wokwi (ESP32) - construção de protótipo](https://www.youtube.com/watch?v=qykWPjgrCDs)

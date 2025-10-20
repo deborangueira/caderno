@@ -80,6 +80,27 @@ data: dict = {'name': 'Jimin', 'style': 'contemporary'} # key-value
 
 ```
 
+## Type hints (anotação de tipo)
+
+```Python
+# Sem type hint
+    def finalValueAfterOperations(self, operations):
+
+# Com type hint
+    def finalValueAfterOperations(self, operations: list) -> int:
+
+        # self: o primeiro parâmetro de um método dentro de uma classe.
+        # operations: list: o argumento operations deve ser uma lista.
+        # -> int: a função retorna um inteiro.(identificado por ":rtype")
+
+```
+
+
+Não muda o comportamento do código, mas serve para:
+- melhorar a legibilidade,
+- ajudar IDEs (como VSCode ou PyCharm) a detectar erros,
+- gerar documentação automática.
+
 ## Othe topics
 
 ### Listas []
@@ -208,10 +229,23 @@ student.items() # output: [('name' = 'Débora'),('age' = 22),('courses' = ['Math
 for Key, value in student.item()
     print(key, value)
 ```
+## Loops
+
+### for
+
+- Used to iterate over elements of a sequence, such as lists, strings, or even dictionaries.
+
+```Python
+ingredientes = ["farinha", "açúcar", "ovos", "leite"]
+
+for ingrediente in ingredientes:
+    print(f"{ingrediente} is in the list")
+```
 
 
 # References
 
 [Dictionary](https://www.youtube.com/watch?v=daefaLgNkw0)\
 [Lists and tulpes](https://www.youtube.com/watch?v=W8KRzm-HUcc)\
-[Important Concepts -> the perfect video](https://www.youtube.com/watch?v=Gx5qb1uHss4&list=WL&index=2&t=189shttps://www.youtube.com/watch?v=Gx5qb1uHss4&list=WL&index=2&t=189s)
+[Important Concepts -> the perfect video](https://www.youtube.com/watch?v=Gx5qb1uHss4&list=WL&index=2&t=189shttps://www.youtube.com/watch?v=Gx5qb1uHss4&list=WL&index=2&t=189s)\
+[Loop -> the perfect article!](https://www.rocketseat.com.br/blog/artigos/post/loops-python-explicados#25d1fa7d41e0433fa3ebd17ef485f5c4)
