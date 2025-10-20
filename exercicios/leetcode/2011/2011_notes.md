@@ -35,6 +35,32 @@ class Solution(object):
         return x
 
 ```
+### Second try
+```Python
+
+class Solution(object):
+    def finalValueAfterOperations(self, operations):
+
+        x = 0
+
+        for string in operations:
+            if string == 'X++' or string == '++X':
+                x += 1 
+            else:
+                x -= 1
+
+        return x
+
+```
+
+### Third try
+
+**Thinking as a performance engenering**
+- There is time waste in this parts:
+    1. Two comparisons per string -> look for a single point of difference between all 4 statements to lower the number of comparisons
+    2. Two if statements
+
+
 
 # Related content
 
