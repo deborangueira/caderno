@@ -3,7 +3,7 @@
 ### Details
 
 - Initialize X at zero
-- Operations is a **list** with **strings**
+- Operations is a **list** of **strings**
 - Increment 1 if
 - Decrement 1 if 
 - Return a **int**
@@ -35,31 +35,26 @@ class Solution(object):
         return x
 
 ```
-### Second try
+
+### Second try - Thinking as a performance engeneering
+
+**Otimization: going from 4ms to 0ms**
+
+- I noticed that there is time waste in the comparisons per string, so I need to look for a single point of difference between all 4 statements to lower the number of comparisons:
+
+    when using string[i] I'm taking the i° element of that specific string. In this case the middle element is the same in both cases of increment: "+", and the same in the cases of decrement "-". So it would take only one condition to compare now and make the respective opperation! Lowering the need to verify multiple conditions.\
+
+    | Conclusion -> **The central character (string[1]) always indicates whether it is an increment or decrement**
+
 ```Python
 
-class Solution(object):
-    def finalValueAfterOperations(self, operations):
-
-        x = 0
-
-        for string in operations:
-            if string == 'X++' or string == '++X':
-                x += 1 
-            else:
-                x -= 1
-
-        return x
+    for string in operations:
+        if string[1] == "+":
+            x += 1
+        else:
+            x -=1
 
 ```
-
-### Third try
-
-**Thinking as a performance engenering**
-- There is time waste in this parts:
-    1. Two comparisons per string -> look for a single point of difference between all 4 statements to lower the number of comparisons
-    2. Two if statements
-
 
 
 # Related content
