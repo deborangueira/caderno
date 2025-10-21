@@ -1,0 +1,4 @@
+nums = [1,4,5]
+k = 1
+numOperations = 2
+
