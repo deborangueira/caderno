@@ -1,5 +1,5 @@
-nums = [5,11,20,20]
-k = 1
+nums = [88,53]
+k = 27
 numOperations = 2
 
 def compare(list):
@@ -19,7 +19,7 @@ def compare(list):
                     if n != list[i]:
                         y = list[i] + t
 
-                        print(f'{n}')
+                        print(f'{n} // {y}')
 
                         if y == n:
                             frequencia_maxima +=1
