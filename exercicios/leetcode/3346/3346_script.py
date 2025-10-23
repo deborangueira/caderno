@@ -1,5 +1,5 @@
-nums = [88,53]
-k = 27
+nums = [1,4,5]
+k = 1
 numOperations = 2
 
 def compare(list):
