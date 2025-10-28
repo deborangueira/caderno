@@ -31,3 +31,17 @@
 
 **Referência**
 - Livro: 9788580550269
+
+# Ponteiros
+
+### 9.1 Endereços e referências
+### 9.2	Conceito de ponteiro
+### 9.3 Ponteiro null e void
+### 9.5 Ponteiros e arrays
+### 9.7 Ponteiros e cadeias
+### 9.10 Ponteiros como argumentos de funções
+### 9.12 Ponteiros para estruturas
+
+**Referência**
+- Livro: 9788580550269 (capítulo 9)
+
