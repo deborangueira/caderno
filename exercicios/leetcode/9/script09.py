@@ -1,32 +1,26 @@
 class Solution(object):
     def isPalindrome(self, x):
 
-        palindrome = 0
+        numerOriginal = x
 
+        def inverter(x):
 
-        if x < 0:
-
-            x = x*(-1)
+            palindrome = 0
 
             while x > 0:
-                
-                digitoInvertido = x % 10 
+                        
+                digito = x % 10 
                 x = x // 10 
 
-                palindrome = palindrome*10 + digitoInvertido
+                palindrome = palindrome*10 + digito
 
-            x = x*(-1)
-        else: 
-            while x > 0:
-                
-                digitoInvertido = x % 10 
-                x = x // 10 
+            return palindrome
 
-                palindrome = palindrome*10 + digitoInvertido
+        resultado = inverter(x)
 
-            x = x*(-1)
+        if numerOriginal == resultado and x>=0: print(True)
+        else: print(False)
 
-
-        if x == palindrome: 
-            return True
-        
+# --- Chamada do método ---
+x = 10
+Solution().isPalindrome(x)
