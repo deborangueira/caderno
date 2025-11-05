@@ -2,7 +2,7 @@
 
 > Nesse documento reuni os comandos que mais utilizo para o fluxo de trabalho com Git utilizando terminal do VS Code. Ele foi pensado para ser um documento de consulta, a fim de que não seja mais necessário utilizar o GitHub Desktop.  
 
-> _Atualizado em: 21/07/2025_
+> _Atualizado em: 04/11/2025_
 
 ## 📁 Navegar entre pastas
 
@@ -99,7 +99,9 @@ git branch -vv                 # saber a quais branches remotas as locais estão
 
     <img src =  './assets/git_branch_vv.png' style="width: 50%;">
 
-
+```powershell
+git checkout -b feat/rotasPost # cria uma nova branch e leva alterações que foram feitas para ela 
+```
 
 ## 🫱🏼‍🫲🏼 Fazer merge
 
