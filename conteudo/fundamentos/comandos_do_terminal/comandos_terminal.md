@@ -2,7 +2,7 @@
 
 > Nesse documento reuni os comandos que mais utilizo para o fluxo de trabalho com Git utilizando terminal do VS Code. Ele foi pensado para ser um documento de consulta, a fim de que não seja mais necessário utilizar o GitHub Desktop.  
 
-> _Atualizado em: 04/11/2025_
+> _Atualizado em: 09/02/2026_
 
 ## 📁 Navegar entre pastas
 
@@ -16,7 +16,7 @@ explorer.exe .          # Abre o diretório no seu computador
 ## 🔗 Clonar repositório do GitHub
 
 1. Defina a pasta do seu computador (diretório) que irá receber o repositório
-2. Crie o repositório no GitHub e copie o link de clonagem
+2. Crie o repositório no GitHub e copie o link de clonagem HTTPS
 3. No terminal, certifique-se de que a linha de comando está no diretório certo  
 4. Clone o repositório com:
 
@@ -30,9 +30,13 @@ git clone https://github.com/deborangueira/[nomeRepositorio].git
 
 ```powershell
 git add .                                  # Guarda todas as mudanças
-git commit -m "comentário descritivo"      # O commit em si
-git commit --amend -m "descrição"          # renomear o commit (antes do push)
+git commit -m "comentário "      # O commit em si
+git commit --amend -m "comentário"          # renomear o commit (antes do push)
 git push origin nomeBranch                 # Atualiza no GitHub
+```
+
+```powershell
+git commit -a -m "comentário"      # faz stage e commit automático apenas de arquivos trackeados
 ```
 
 Comandos úteis **ANTES** de realizar o commit:
@@ -78,7 +82,7 @@ git branch -a                  # Mostra todas as branches
 ```
 
 ```powershell
-git switch nomeBranch          # Troca branch 
+git switch nomeBranch          # Troca branch
 ```
 
 ```powershell
@@ -88,6 +92,8 @@ git branch -D nomeBranch                 # exclui a branch no seu computador
 
 ```powershell
 git switch -c novaBranch       # Cria e já troca para nova branch
+git add .
+git commit -m "tipo: mensagem"
 git push -u origin novaBranch  # sobe a branch nova para o GitHub
 ```
 - O "-u" do último comando significa "upstream" e ele cria uma **ligação entre a branch local** "novaBranch" e a **remota** "origin/novaBranch". Assim quando eu estiver nela, posso só usar `git pull` ou `git push`, sem precisar escrever o nome do remoto e da novaBranch.
