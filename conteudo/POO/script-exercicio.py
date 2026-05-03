@@ -9,7 +9,7 @@ class Veiculo: # define a classe
         # self.marca, self.modelo, self.ano, self.cor são os atributos da classe
 
     def mover(self):
-        print(f"O {self.marca} {self.modelo} está se movendo")
+        print(f"O veículo está se movendo")
 
     def get_info(self):
         print(f"{self.modelo} é um {self.marca} {self.cor} de {self.ano}") 
